@@ -1,5 +1,6 @@
 ### Home Assistant 用电信息卡片 (Electricity Info Card)
-      electricity-info-card 是一个高度可定制、功能丰富的用电信息展示卡片。它以美观的视觉设计和交互式图表，全面展示家庭用电的各类数据，同时各类信息都可以随心所欲的控制是否显示。其内置light（亮色）、dark（暗色）、power（国家电网主题）、transparent（半透明）、blue、green、red、purple、yellow、cyan、pink、orange 等12种主题，可根据时间自动切换或手动指定主题，另外还可以以时间轴的形式暂时设备的使用情况，用电信息等。
+
+electricity-info-card 是一个高度可定制、功能丰富的用电信息展示卡片。它以美观的视觉设计和交互式图表，全面展示家庭用电的各类数据，同时各类信息都可以随心所欲的控制是否显示。其内置light（亮色）、dark（暗色）、power（国家电网主题）、transparent（半透明）、blue、green、red、purple、yellow、cyan、pink、orange 等12种主题，可根据时间自动切换或手动指定主题，另外还可以以时间轴的形式暂时设备的使用情况，用电信息等。
 
 
 

@@ -61,6 +61,7 @@ v2.0.3
 
 总体来说，主要修改通过dark_light_theme配置项来自定义暗色和亮色，在需要切换时（theme值或者实体为time、phone、on、off）根据参数来切换
 
+----------------------------------------------------------------------------------------------------------------------------------
 
 V2.0.1
 
@@ -116,8 +117,9 @@ resources:
 ```yaml
 type: custom:electricity-info-card
 entity: sensor.electricity_info
+dark_light_theme: black,red   #可选，自定义暗色和亮色主题名称，在使用 `time`、`phone` 或实体 `on/off` 状态时，必须先配置 `dark_light_theme`
 name: 家庭用电
-hide:                                  #可选，值见下表，意思是要隐藏的要素，可填写多个，具体见后
+hide:   #可选，值见下表，意思是要隐藏的要素，可填写多个，具体见后
 theme: input_select.theme     #可选配置，可以是实体，也可以是文本(也可以填写为on/off)，实体支持两种，一种为开关类，如果填写开关类则只会在亮色和暗色间切换；一种是下拉型实体，可选值为：light、dark、power、transparent、blue、green、red、purple、yellow、cyan、pink、orange、time（跟随时间切换亮色和暗色）、phone（跟随手机系统或者浏览器切换亮色和暗色）
 tier1_max: 2160              #第一阶梯最大值
 tier1_price: 0.4983         #第一阶梯单价
